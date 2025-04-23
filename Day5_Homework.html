@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Life Portal</title>
+        <style>
+            :root 
+            {
+                --primary-color: #4CAF50;
+                --secondary-color: #FF9800;
+                --text-color: #333;
+                --background-color: #F9F9F9;
+                --header-color: #3F51B5;
+            }
+            body 
+            {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: var(--background-color);
+                color: var(--text-color);
+            }
+            header 
+            {
+                background-color: var(--header-color);
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            nav 
+            {
+                background-color: var(--primary-color);
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+            }
+            nav a 
+            {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+            }
+            nav a:hover 
+            {
+                text-decoration: underline;
+            }
+            .content 
+            {
+                padding: 20px;
+                max-width: 900px;
+                margin: auto;
+            }
+            .card 
+            {
+                background-color: white;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+                padding: 15px;
+            }
+            .announcement 
+            {
+                background-color: var(--secondary-color);
+                color: white;
+                padding: 15px;
+                border-radius: 8px;
+            }
+            .feature-section 
+            {
+                background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+                color: white;
+                padding: 30px;
+                border-radius: 8px;
+                margin-top: 20px;
+            }
+            footer 
+            {
+                background-color: var(--header-color);
+                color: white;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+            }
+            .subscribe 
+            {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                margin-top: 15px;
+            }
+            .subscribe input[type="email"] 
+            {
+                padding: 10px;
+                flex: 1;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .subscribe button 
+            {
+                padding: 10px 20px;
+                background-color: var(--secondary-color);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .subscribe button:hover 
+            {
+                background-color: #e67e22;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Student Life Portal</h1>
+            <p>Your go-to spot for campus updates, events, and news.</p>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Campus News</a>
+            <a href="#">Events</a>
+            <a href="#">Clubs</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="content">
+            <div class="card">
+                <h2>Welcome, Students!</h2>
+                <p>Explore the latest happenings on campus, discover new clubs, and never miss an event. This portal is built for students, by students.</p>
+            </div>
+            <div class="card">
+                <h2>Latest Campus Buzz</h2>
+                <div class="announcement">
+                    <h3>Spring Fest 2025 Announced!</h3>
+                    <p>April 23, 2025 - by Campus Events Team</p>
+                    <p>Get ready for live music, food trucks, games, and more! The annual Spring Fest will be held on May 5th at the central quad. Don't miss out!</p>
+                </div>
+            </div>
+            <div class="feature-section">
+                <h2>Exciting New Feature: Campus Spotlight</h2>
+                <p>Every week, we feature a story or achievement from the students on campus. Stay tuned for inspiring stories and campus highlights!</p>
+                <div class="subscribe">
+                    <input type="email" placeholder="Enter your email to subscribe...">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2025 Student Life Portal | Designed with ♥ by the Campus Web Team</p>
+        </footer>
+    </body>
+</html>
